@@ -1,0 +1,25 @@
+{
+  "name": "ethermine-js",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Library for the ethermine API. Usable in JavaScript and TypeScript projects.",
+  "main": "dist/index.js",
+  "author": "Zaid \"Nico\"",
+  "license": "MIT",
+  "scripts": {
+    "test": "npm run build && node ./__tests__/index.js",
+    "build": "tsc",
+    "prepublishOnly": "npx rimraf dist/ && npm run build"
+  },
+  "files": [
+    "dist",
+    "types"
+  ],
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.9",
+    "typescript": "^3.9.7"
+  }
+}

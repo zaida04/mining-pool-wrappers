@@ -1,0 +1,13 @@
+node_modules/
+dist/
+types/
+
+.npmrc
+*.tsbuildinfo
+*.log
+
+*.config.json
+.vscode/
+.idea/
+*.env
+docs/
