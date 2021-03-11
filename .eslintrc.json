@@ -10,7 +10,6 @@
     "parserOptions": {
         "ecmaVersion": 2020
     },
-    "plugins": ["simple-import-sort"],
     "env": {
         "node": true
     },
@@ -148,7 +147,7 @@
         "max-depth": "warn",
         "max-len": [
             "warn",
-            120,
+            160,
             2
         ],
         "max-nested-callbacks": [
@@ -240,7 +239,6 @@
         "prefer-template": "warn",
         "rest-spread-spacing": "warn",
         "template-curly-spacing": "warn",
-        "yield-star-spacing": "warn",
-        "simple-import-sort/sort": "warn"
+        "yield-star-spacing": "warn"
     }
 }
