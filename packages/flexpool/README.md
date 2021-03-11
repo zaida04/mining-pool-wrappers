@@ -1,6 +1,6 @@
 # `flexpool`  
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![npm](https://img.shields.io/npm/v/zaida04/flexpool?color=crimson&logo=npm)](https://www.npmjs.com/package/zaida04/flexpool) [![Quality Check](https://github.com/zaida04/mining-pool-wrappers/actions/workflows/quality.yml/badge.svg)](https://github.com/zaida04/mining-pool-wrappers/actions/workflows/quality.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![npm](https://img.shields.io/npm/v/flexpool?color=crimson&logo=npm)](https://www.npmjs.com/package/zaida04/flexpool) [![Quality Check](https://github.com/zaida04/mining-pool-wrappers/actions/workflows/quality.yml/badge.svg)](https://github.com/zaida04/mining-pool-wrappers/actions/workflows/quality.yml)
 
 ## Installation
 - `npm install flexpool`  
