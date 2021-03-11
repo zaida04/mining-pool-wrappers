@@ -13,17 +13,17 @@ jobs:
         with:
           node-version: 12
 
-      - name: Install Main Dependencies
-        run: npm i
+      - name: Install PNPM
+        run: npm i pnpm -g
 
-      - name: Install Sub Dependencies
-        run: npm run bootstrap
+      - name: Install Dependencies
+        run: pnpm i --r
 
       - name: Run ESLint
-        run: npm run lint
+        run: pnpm run lint
 
       - name: Run TypeScript compiler
-        run: npm run build
+        run: pnpm run build
 
       - name: Run Jest
-        run: npm run test
+        run: pnpm run test

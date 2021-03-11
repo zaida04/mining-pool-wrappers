@@ -16,14 +16,17 @@ jobs:
         with:
           node-version: 15
 
-      - name: Install Main Dependencies
-        run: npm i
+      - name: Install PNPM
+        run: npm i pnpm -g
+
+      - name: Install Dependencies
+        run: pnpm i --r
 
       - name: Run TypeScript compiler
-        run: npm run build
+        run: pnpm run build
 
       - name: Build the docs
-        run: npm run docs
+        run: pnpm run docs
         
       - name: Commit the Docs
         uses: cpina/github-action-push-to-another-repository@master
