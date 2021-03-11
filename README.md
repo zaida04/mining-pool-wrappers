@@ -15,9 +15,9 @@
 </div>
 
 ## Packages
-- [`flexpool`](https://github.com/zaida04/mining-pool-wrappers/tree/dev/packages/flexpool)
-- [`ethermine (WIP)`](https://github.com/zaida04/mining-pool-wrappers/tree/dev/packages/ethermine)
-- [`hiveos (WIP)`](https://github.com/zaida04/mining-pool-wrappers/tree/dev/packages/hiveos) 
+- [`flexpool`](https://github.com/zaida04/mining-pool-wrappers/tree/main/packages/flexpool)
+- [`ethermine (WIP)`](https://github.com/zaida04/mining-pool-wrappers/tree/main/packages/ethermine)
+- [`hiveos (WIP)`](https://github.com/zaida04/mining-pool-wrappers/tree/main/packages/hiveos) 
 
 ## Contributing
 We make use of [`PNPM`](https://pnpm.js.org/) to manage our monorepo setup. It is expected that you have an up-to-date 
