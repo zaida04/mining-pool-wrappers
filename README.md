@@ -20,10 +20,14 @@
 - [`hiveos (WIP)`](https://github.com/zaida04/mining-pool-wrappers/tree/dev/packages/hiveos) 
 
 ## Contributing
-We make use of [`PNPM`](https://pnpm.js.org/) to manage our monorepo setup. It is expected that you have an up-to-date version of it. 
+We make use of [`PNPM`](https://pnpm.js.org/) to manage our monorepo setup. It is expected that you have an up-to-date 
+version of it.   
+
 Please ensure you run `pnpm run lint`, `pnpm run build`, and `pnpm run test` in the root before pushing your commits.
-Please ensure that you follow our [Code Of Conduct](https://github.com/zaida04/mining-pool-wrappers/blob/master/.github/CODE_OF_CONDUCT.md).
-If all checks out, [Submit a Pull Request](https://github.com/zaida04/mining-pool-wrappers/compare)
+
+Please ensure that you follow our [Code Of Conduct](https://github.com/zaida04/mining-pool-wrappers/blob/master/.github/CODE_OF_CONDUCT.md).  
+
+If all checks out, [Submit a Pull Request](https://github.com/zaida04/mining-pool-wrappers/compare)  
 
 # LICENSING
 

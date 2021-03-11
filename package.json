@@ -5,8 +5,7 @@
   "description": "Overarching repository that maintains the packages.",
   "main": "null",
   "scripts": {
-    "build": "npx lerna run build",
-    "bootstrap": "npx lerna bootstrap",
+    "build": "pnpm recursive run build",
     "lint": "npx eslint packages/ --ext .ts",
     "lint:fix": "npx eslint packages/ --ext .ts --fix",
     "test:ci": "jest --ci --no-stack-trace  --verbose",
@@ -32,7 +31,6 @@
     "babel-plugin-const-enum": "^1.0.1",
     "babel-plugin-replace-ts-export-assignment": "^0.0.2",
     "husky": "^4.3.0",
-    "lerna": "^3.22.1",
     "lint-staged": "^10.4.2",
     "prettier": "^2.0.5",
     "rimraf": "^3.0.2",
