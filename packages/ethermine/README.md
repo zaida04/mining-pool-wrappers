@@ -46,7 +46,7 @@ const main = async () => {
 In addition to the above objects, all the API Typings are exported as well for your convenience. They are formatted as such: `{HTTPMETHOD}{GROUP}{ACTION}`, so for example `GetPoolNetworkStats`. All of these have a jsdoc comment (custom) of `@destination` which will tell you what endpoint the interface corresponds to.
 
 ## Documentation
-There is currently no documentation. Stay tuned!
+You can find the documentation at https://mining-pool-libs.github.io
 
 ## Contributing
 Please see the main [README.md](https://github.com/zaida04/mining-pool-wrappers) for info on how to contribute to this package or the other mining-pool-wrappers packages.

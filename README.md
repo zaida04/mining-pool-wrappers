@@ -15,7 +15,9 @@
 </div>
 
 ## Packages
-All of these packages are planned to follow this [SPEC](https://github.com/zaida04/mining-pool-wrappers/blob/main/packages/SPEC.md)
+All of these packages are planned to follow this [SPEC](https://github.com/zaida04/mining-pool-wrappers/blob/main/packages/SPEC.md).
+
+You can find the documentation for all these packages at: https://mining-pool-libs.github.io
 
 - [`flexpool`](https://github.com/zaida04/mining-pool-wrappers/tree/dev/packages/flexpool)
 - [`ethermine`](https://github.com/zaida04/mining-pool-wrappers/tree/dev/packages/ethermine)
