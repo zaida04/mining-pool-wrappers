@@ -19,9 +19,9 @@ All of these packages are planned to follow this [SPEC](https://github.com/zaida
 
 You can find the documentation for all these packages at: https://zaida04.github.io/mining-pool-libs-documentation/
 
-- [`flexpool`](https://github.com/zaida04/mining-pool-wrappers/tree/dev/packages/flexpool)
-- [`ethermine`](https://github.com/zaida04/mining-pool-wrappers/tree/dev/packages/ethermine)
-- [`hiveos (WIP)`](https://github.com/zaida04/mining-pool-wrappers/tree/dev/packages/hiveos) 
+- [`flexpool`](https://github.com/zaida04/mining-pool-wrappers/tree/main/packages/flexpool)
+- [`ethermine`](https://github.com/zaida04/mining-pool-wrappers/tree/main/packages/ethermine)
+- [`hiveos (WIP)`](https://github.com/zaida04/mining-pool-wrappers/tree/main/packages/hiveos) 
 
 
 ## Contributing
