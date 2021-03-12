@@ -7,7 +7,7 @@
   <p>
       <img src="https://github.com/zaida04/mining-pool-wrappers/actions/workflows/quality.yml/badge.svg" alt="Quality Check">
       <img src="https://github.com/zaida04/mining-pool-wrappers/actions/workflows/docs.yml/badge.svg" alt="Deploy Docs"><br>
-      <a href="https://github.com/zaida04/mining-pool-wrappers/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-Apache%202.0-yellow.svg" alt="License: APACHE 2.0"></a>
+      <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"></a>
       <a href="https://github.com/zaida04/mining-pool-wrappers/issues"><img src="https://img.shields.io/github/issues-raw/zaida04/mining-pool-wrappers.svg?maxAge=25000" alt="Issues"></a>
       <a href="https://github.com/zaida04/mining-pool-wrappers/pulls"><img src="https://img.shields.io/github/issues-pr/zaida04/mining-pool-wrappers.svg?style=flat" alt="GitHub pull requests"></a><br>
   </p>
