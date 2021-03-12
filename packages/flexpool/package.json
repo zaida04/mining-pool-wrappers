@@ -1,6 +1,6 @@
 {
   "name": "flexpool",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Library for the flexpool API. Usable in JavaScript and TypeScript projects.",
   "main": "dist/index.js",
   "types": "types/index.d.ts",
