@@ -36,6 +36,6 @@ jobs:
           source-directory: 'docs'
           destination-github-username: 'github-actions[bot]'
           destination-repository-username: "zaida04"
-          destination-repository-name: 'mining-pool-libs.github.io'
-          target-branch: 'master'
+          destination-repository-name: 'mining-pool-libs-documentation'
+          target-branch: 'main'
           user-email: 41898282+github-actions[bot]@users.noreply.github.com
