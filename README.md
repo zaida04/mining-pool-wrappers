@@ -15,9 +15,14 @@
 </div>
 
 ## Packages
-- [`flexpool`](https://github.com/zaida04/mining-pool-wrappers/tree/main/packages/flexpool)
-- [`ethermine (WIP)`](https://github.com/zaida04/mining-pool-wrappers/tree/main/packages/ethermine)
-- [`hiveos (WIP)`](https://github.com/zaida04/mining-pool-wrappers/tree/main/packages/hiveos) 
+All of these packages are planned to follow this [SPEC](https://github.com/zaida04/mining-pool-wrappers/blob/main/packages/SPEC.md).
+
+You can find the documentation for all these packages at: https://mining-pool-libs.github.io
+
+- [`flexpool`](https://github.com/zaida04/mining-pool-wrappers/tree/dev/packages/flexpool)
+- [`ethermine`](https://github.com/zaida04/mining-pool-wrappers/tree/dev/packages/ethermine)
+- [`hiveos (WIP)`](https://github.com/zaida04/mining-pool-wrappers/tree/dev/packages/hiveos) 
+
 
 ## Contributing
 We make use of [`PNPM`](https://pnpm.js.org/) to manage our monorepo setup. It is expected that you have an up-to-date 
@@ -33,3 +38,5 @@ If all checks out, [Submit a Pull Request](https://github.com/zaida04/mining-poo
 
 © 2020, [Zaida04](https://github.com/zaida04). All rights reserved.
 > mining-pool-wrappers is licensed under the [MIT](https://github.com/zaida04/mining-pool-wrappers/blob/master/LICENSE) license
+
+## Have questions? Ask on my [Discord](https://discord.gg/jf66UUN)

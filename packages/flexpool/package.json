@@ -15,6 +15,13 @@
     "dist",
     "types"
   ],
+  "keywords": [
+    "flexpool",
+    "flexpool-js",
+    "flexpool.js",
+    "flexpool api",
+    "flexpool-api"
+  ],
   "directories": {
     "lib": "lib"
   },
@@ -25,5 +32,13 @@
   },
   "dependencies": {
     "node-fetch": "^2.6.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zaida04/mining-pool-wrappers.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zaida04/mining-pool-wrappers/issues"
+  },
+  "homepage": "https://github.com/zaida04/mining-pool-wrappers/tree/main/packages/flexpool"
 }
