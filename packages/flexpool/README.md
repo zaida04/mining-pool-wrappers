@@ -6,6 +6,8 @@
 This package is a wrapper for the [Flexpool API](https://flexpool.io/en/docs/API/#/). It is written in TypeScript is usable in either JavaScript or TypeScript projects. It comes with typings out of the box for your convenience. In addition this package wrapping over API Endpoints, it also provides typings for all the API Endpoints. 
 
 ## Installation
+You can install this package from [NPM](https://www.npmjs.com/package/flexpool)
+
 - `npm install flexpool`  
 - `yarn add flexpool`
 

@@ -1,12 +1,12 @@
 # `ethermine`  
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![npm](https://img.shields.io/npm/v/zaida04/ethermine?color=crimson&logo=npm)](https://www.npmjs.com/package/ethermine) [![TypeScript](https://github.com/zaida04/mining-pool-wrappers/actions/workflows/quality.yml/badge.svg)](https://github.com/zaida04/mining-pool-wrappers/actions/workflows/quality.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![npm](https://img.shields.io/npm/v/ethermine?color=crimson&logo=npm)](https://www.npmjs.com/package/ethermine) [![TypeScript](https://github.com/zaida04/mining-pool-wrappers/actions/workflows/quality.yml/badge.svg)](https://github.com/zaida04/mining-pool-wrappers/actions/workflows/quality.yml)
 
 ## About
 This package is a wrapper for the [Ethermine API](https://ethermine.org/api/worker). It is written in TypeScript is usable in either JavaScript or TypeScript projects. It comes with typings out of the box for your convenience. In addition this package wrapping over API Endpoints, it also provides typings for all the API Endpoints. 
 
 ## Installation
-You can install this package from [NPM]()
+You can install this package from [NPM](https://www.npmjs.com/package/ethermine)
 
 - `npm install ethermine`  
 - `yarn add ethermine`
