@@ -23,6 +23,7 @@ You can find the documentation for all these packages at: https://mining-pool-li
 - [`ethermine`](https://github.com/zaida04/mining-pool-wrappers/tree/dev/packages/ethermine)
 - [`hiveos (WIP)`](https://github.com/zaida04/mining-pool-wrappers/tree/dev/packages/hiveos) 
 
+
 ## Contributing
 We make use of [`PNPM`](https://pnpm.js.org/) to manage our monorepo setup. It is expected that you have an up-to-date 
 version of it.   
