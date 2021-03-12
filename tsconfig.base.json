@@ -17,6 +17,7 @@
       "node_modules/@types"
     ],
     "types": [
+      "jest",
       "node"
     ],
     "sourceMap": true,
@@ -27,6 +28,6 @@
     "resolveJsonModule": true
   },
   "exclude": [
-    "dist/**"
+    "dist/**",
   ]
 }

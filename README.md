@@ -15,8 +15,10 @@
 </div>
 
 ## Packages
+All of these packages are planned to follow this [SPEC](https://github.com/zaida04/mining-pool-wrappers/blob/main/packages/SPEC.md)
+
 - [`flexpool`](https://github.com/zaida04/mining-pool-wrappers/tree/dev/packages/flexpool)
-- [`ethermine (WIP)`](https://github.com/zaida04/mining-pool-wrappers/tree/dev/packages/ethermine)
+- [`ethermine`](https://github.com/zaida04/mining-pool-wrappers/tree/dev/packages/ethermine)
 - [`hiveos (WIP)`](https://github.com/zaida04/mining-pool-wrappers/tree/dev/packages/hiveos) 
 
 ## Contributing
@@ -33,3 +35,5 @@ If all checks out, [Submit a Pull Request](https://github.com/zaida04/mining-poo
 
 © 2020, [Zaida04](https://github.com/zaida04). All rights reserved.
 > mining-pool-wrappers is licensed under the [MIT](https://github.com/zaida04/mining-pool-wrappers/blob/master/LICENSE) license
+
+## Have questions? Ask on my [Discord](https://discord.gg/jf66UUN)

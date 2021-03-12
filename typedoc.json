@@ -1,15 +1,16 @@
 {
-    "name": "Guilded.JS",
+    "name": "mining-pool-wrappers",
     "mode": "modules",
     "out": "docs",
     "theme": "minimal",
-    "exclude": ["node_modules/**", "dist/**", "types/**"],
-    "ignoreCompilerErrors": true,
-    "preserveConstEnums": true,
+    "exclude": ["node_modules/**", "dist/**", "types/**", "__tests__/**", "**/*.test.ts"],
     "excludeExternals": true,
     "external-modulemap": ".*packages\/([^\/]+)\/.*",
-    "stripInternal": true,
     "media": "media",
     "readme": "README.md",
-    "tsconfig": "tsconfig.base.json"
+    "tsconfig": "tsconfig.base.json",
+    "plugin": [
+        "@strictsoftware/typedoc-plugin-monorepo",
+        "typedoc-plugin-remove-references"
+    ]
 }

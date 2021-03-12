@@ -26,4 +26,4 @@ jobs:
         run: pnpm run build
 
       - name: Run Jest
-        run: pnpm run test
+        run: pnpm run test:ci

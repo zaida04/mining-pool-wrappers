@@ -6,64 +6,72 @@ const rest = new RestHandler('https://flexpool.io/api/v1');
 export * from './typings';
 export const Routes = {
     miner: {
-        balance: (address: string): Promise<api.GetMinerBalance> =>
+        balance: (address: string): Promise<Pick<api.GetMinerBalance, 'result'>> =>
             rest.get<api.GetMinerBalance>(`/miner/${address}/balance`),
-        currentStats: (address: string): Promise<api.GetMinerCurrentStats> =>
+        currentStats: (address: string): Promise<Pick<api.GetMinerCurrentStats, 'result'>> =>
             rest.get<api.GetMinerCurrentStats>(`/miner/${address}/current`),
-        daily: (address: string): Promise<api.GetMinerDailyStats> =>
+        daily: (address: string): Promise<Pick<api.GetMinerDailyStats, 'result'>> =>
             rest.get<api.GetMinerDailyStats>(`/miner/${address}/daily`),
-        stats: (address: string): Promise<api.GetMinerStats> => rest.get<api.GetMinerStats>(`/miner/${address}/stats`),
-        workerCount: (address: string): Promise<api.GetMinerWorkerCount> =>
+        stats: (address: string): Promise<Pick<api.GetMinerStats, 'result'>> =>
+            rest.get<api.GetMinerStats>(`/miner/${address}/stats`),
+        workerCount: (address: string): Promise<Pick<api.GetMinerWorkerCount, 'result'>> =>
             rest.get<api.GetMinerWorkerCount>(`/miner/${address}/workerCount`),
-        workers: (address: string): Promise<api.GetMinerWorkers> =>
+        workers: (address: string): Promise<Pick<api.GetMinerWorkers, 'result'>> =>
             rest.get<api.GetMinerWorkers>(`/miner/${address}/workers`),
-        /* Doesn't work??: CheckExists: (address: string): Promise<api.GetMinerExists> =>
+        /* Doesn't work??: CheckExists: (address: string): Promise<Pick<api.GetMinerExists> =>
             rest.get<api.GetMinerExists>(`/miner/${address}/exists`), */
-        chart: (address: string): Promise<api.GetMinerChart> => rest.get<api.GetMinerChart>(`/miner/${address}/chart`),
-        payments: (address: string, page = 1): Promise<api.GetMinerPayments> =>
+        chart: (address: string): Promise<Pick<api.GetMinerChart, 'result'>> =>
+            rest.get<api.GetMinerChart>(`/miner/${address}/chart`),
+        payments: (address: string, page = 1): Promise<Pick<api.GetMinerPayments, 'result'>> =>
             rest.get<api.GetMinerPayments>(`/miner/${address}/payments?page=${page}`),
-        paymentCount: (address: string): Promise<api.GetMinerPaymentCount> =>
+        paymentCount: (address: string): Promise<Pick<api.GetMinerPaymentCount, 'result'>> =>
             rest.get<api.GetMinerPaymentCount>(`/miner/${address}/paymentCount`),
-        paymentsChart: (address: string): Promise<api.GetMinerPaymentChart> =>
+        paymentsChart: (address: string): Promise<Pick<api.GetMinerPaymentChart, 'result'>> =>
             rest.get<api.GetMinerPaymentChart>(`/miner/${address}/paymentsChart`),
-        blocks: (address: string, page = 1): Promise<api.GetMinerBlocks> =>
+        blocks: (address: string, page = 1): Promise<Pick<api.GetMinerBlocks, 'result'>> =>
             rest.get<api.GetMinerBlocks>(`/miner/${address}/blocks?page=${page}`),
-        blockCount: (address: string): Promise<api.GetMinerBlockCount> =>
+        blockCount: (address: string): Promise<Pick<api.GetMinerBlockCount, 'result'>> =>
             rest.get<api.GetMinerBlockCount>(`/miner/${address}/blockCount`),
-        details: (address: string): Promise<api.GetMinerDetails> =>
+        details: (address: string): Promise<Pick<api.GetMinerDetails, 'result'>> =>
             rest.get<api.GetMinerDetails>(`/miner/${address}/details`),
-        estimatedDailyRevenue: (address: string): Promise<api.GetMinerEstimatedDailyRevenue> =>
+        estimatedDailyRevenue: (address: string): Promise<Pick<api.GetMinerEstimatedDailyRevenue, 'result'>> =>
             rest.get<api.GetMinerEstimatedDailyRevenue>(`/miner/${address}/estimatedDailyRevenue`),
-        roundShare: (address: string): Promise<api.GetMinerRoundShare> =>
+        roundShare: (address: string): Promise<Pick<api.GetMinerRoundShare, 'result'>> =>
             rest.get<api.GetMinerRoundShare>(`/miner/${address}/roundShare`),
-        totalPaid: (address: string): Promise<api.GetMinerTotalPaid> =>
+        totalPaid: (address: string): Promise<Pick<api.GetMinerTotalPaid, 'result'>> =>
             rest.get<api.GetMinerTotalPaid>(`/miner/${address}/totalPaid`),
-        totalDonated: (address: string): Promise<api.GetMinerTotalDonated> =>
+        totalDonated: (address: string): Promise<Pick<api.GetMinerTotalDonated, 'result'>> =>
             rest.get<api.GetMinerTotalDonated>(`/miner/${address}/totalDonated`),
     },
     pool: {
-        hashrateChart: (): Promise<api.GetPoolHashrateChart> =>
+        hashrateChart: (): Promise<Pick<api.GetPoolHashrateChart, 'result'>> =>
             rest.get<api.GetPoolHashrateChart>(`/pool/hashrateChart`),
-        workersOnline: (): Promise<api.GetPoolWorkersOnline> =>
+        workersOnline: (): Promise<Pick<api.GetPoolWorkersOnline, 'result'>> =>
             rest.get<api.GetPoolWorkersOnline>(`/pool/workersOnline`),
-        averageLuckRoundtime: (): Promise<api.GetPoolAverageLuckRoundTime> =>
+        averageLuckRoundtime: (): Promise<Pick<api.GetPoolAverageLuckRoundTime, 'result'>> =>
             rest.get<api.GetPoolAverageLuckRoundTime>(`/pool/avgLuckRoundtime`),
-        minersOnline: (): Promise<api.GetPoolMinersOnline> => rest.get<api.GetPoolMinersOnline>(`/pool/minersOnline`),
-        blocks: (page = 1): Promise<api.GetPoolBlocks> => rest.get<api.GetPoolBlocks>(`/pool/blocks?page=${page}`),
-        blockCount: (): Promise<api.GetPoolBlockCount> => rest.get<api.GetPoolBlockCount>(`/pool/blockCount`),
-        topMiners: (): Promise<api.GetPoolTopMiners> => rest.get<api.GetPoolTopMiners>(`/pool/topMiners`),
-        topDonators: (): Promise<api.GetPoolTopDonors> => rest.get<api.GetPoolTopDonors>(`/pool/topDonators`),
-        hashrate: (): Promise<api.GetPoolHashrate> => rest.get<api.GetPoolHashrate>(`/pool/hashrate`),
-        currentLuck: (): Promise<api.GetPoolCurrentLuck> => rest.get<api.GetPoolCurrentLuck>(`/pool/currentLuck`),
+        minersOnline: (): Promise<Pick<api.GetPoolMinersOnline, 'result'>> =>
+            rest.get<api.GetPoolMinersOnline>(`/pool/minersOnline`),
+        blocks: (page = 1): Promise<Pick<api.GetPoolBlocks, 'result'>> =>
+            rest.get<api.GetPoolBlocks>(`/pool/blocks?page=${page}`),
+        blockCount: (): Promise<Pick<api.GetPoolBlockCount, 'result'>> =>
+            rest.get<api.GetPoolBlockCount>(`/pool/blockCount`),
+        topMiners: (): Promise<Pick<api.GetPoolTopMiners, 'result'>> =>
+            rest.get<api.GetPoolTopMiners>(`/pool/topMiners`),
+        topDonators: (): Promise<Pick<api.GetPoolTopDonors, 'result'>> =>
+            rest.get<api.GetPoolTopDonors>(`/pool/topDonators`),
+        hashrate: (): Promise<Pick<api.GetPoolHashrate, 'result'>> => rest.get<api.GetPoolHashrate>(`/pool/hashrate`),
+        currentLuck: (): Promise<Pick<api.GetPoolCurrentLuck, 'result'>> =>
+            rest.get<api.GetPoolCurrentLuck>(`/pool/currentLuck`),
     },
     worker: {
-        current: (address: string, worker: string): Promise<api.GetWorker> =>
+        current: (address: string, worker: string): Promise<Pick<api.GetWorker, 'result'>> =>
             rest.get<api.GetWorker>(`/worker/${address}/${worker}/current`),
-        daily: (address: string, worker: string): Promise<api.GetWorkerDaily> =>
+        daily: (address: string, worker: string): Promise<Pick<api.GetWorkerDaily, 'result'>> =>
             rest.get<api.GetWorkerDaily>(`/worker/${address}/${worker}/daily`),
-        stats: (address: string, worker: string): Promise<api.GetWorkerStats> =>
+        stats: (address: string, worker: string): Promise<Pick<api.GetWorkerStats, 'result'>> =>
             rest.get<api.GetWorkerStats>(`/worker/${address}/${worker}/stats`),
-        chart: (address: string, worker: string): Promise<api.GetWorkerChart> =>
+        chart: (address: string, worker: string): Promise<Pick<api.GetWorkerChart, 'result'>> =>
             rest.get<api.GetWorkerChart>(`/worker/${address}/${worker}/chart`),
     },
 };

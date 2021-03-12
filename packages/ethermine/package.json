@@ -1,9 +1,10 @@
 {
-  "name": "ethermine-js",
+  "name": "ethermine",
   "version": "0.0.1",
   "private": true,
   "description": "Library for the ethermine API. Usable in JavaScript and TypeScript projects.",
   "main": "dist/index.js",
+  "types": "types/index.d.ts",
   "author": "Zaid \"Nico\"",
   "license": "MIT",
   "scripts": {
@@ -15,11 +16,30 @@
     "dist",
     "types"
   ],
+  "keywords": [
+    "ethermine",
+    "ethermine-js",
+    "ethermine-api",
+    "ethermine api",
+    "ethermine.js"
+  ],
   "directories": {
     "lib": "lib"
   },
   "devDependencies": {
+    "@types/node-fetch": "^2.5.8",
     "@types/node": "^14.14.9",
     "typescript": "^3.9.7"
-  }
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zaida04/mining-pool-wrappers.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zaida04/mining-pool-wrappers/issues"
+  },
+  "homepage": "https://github.com/zaida04/mining-pool-wrappers/tree/main/packages/ethermine"
 }
