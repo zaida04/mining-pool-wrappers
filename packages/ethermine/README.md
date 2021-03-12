@@ -3,7 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![npm](https://img.shields.io/npm/v/ethermine?color=crimson&logo=npm)](https://www.npmjs.com/package/ethermine) [![TypeScript](https://github.com/zaida04/mining-pool-wrappers/actions/workflows/quality.yml/badge.svg)](https://github.com/zaida04/mining-pool-wrappers/actions/workflows/quality.yml)
 
 ## About
-This package is a wrapper for the [Ethermine API](https://ethermine.org/api/worker). It is written in TypeScript is usable in either JavaScript or TypeScript projects. It comes with typings out of the box for your convenience. In addition this package wrapping over API Endpoints, it also provides typings for all the API Endpoints. 
+This package is a wrapper for the [Ethermine API](https://ethermine.org/api/worker). It is written in TypeScript and is usable in either JavaScript or TypeScript projects. It comes with typings out of the box for your convenience. In addition to this package wrapping over API Endpoints, it also provides typings for all the API Endpoints. 
 
 ## Installation
 You can install this package from [NPM](https://www.npmjs.com/package/ethermine)
@@ -17,30 +17,29 @@ There are two exported objects in this package. `Routes` and `Util`. Routes prov
 Using Routes:
 
 ```ts
+// CommonJS require
+const { Routes } = require("ethermine");
+
+// ES6 Import
 import { Routes } from "ethermine";
 
 const ADDRESS = '0xeXXXXXXXXXXXXXX';
 
-const main = async () => {
-    const data = await Routes.miner.history(ADDRESS);
-    console.log(data);
-};
-
-main();
-
+Routes.miner.history(ADDRESS).then(data => console.log(data));
 ```
 
 Using Util:
 ```ts
+// CommonJS require
+const { Utils } = require("ethermine");
+
+// ES6 Import
 import { Utils } from "ethermine";
 
 const ADDRESS = '0xeXXXXXXXXXXXXXX';
 const main_miner = Utils.miner(ADDRESS);
 
-const main = async () => {
-    const data = await main_miner.history();
-    console.log(data);
-}
+main_miner.history().then(data => console.log(data));
 ```
 
 In addition to the above objects, all the API Typings are exported as well for your convenience. They are formatted as such: `{HTTPMETHOD}{GROUP}{ACTION}`, so for example `GetPoolNetworkStats`. All of these have a jsdoc comment (custom) of `@destination` which will tell you what endpoint the interface corresponds to.
