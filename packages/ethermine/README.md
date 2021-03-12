@@ -19,26 +19,20 @@ Using Routes:
 ```ts
 // CommonJS require
 const { Routes } = require("ethermine");
-
 // ES6 Import
 import { Routes } from "ethermine";
 
-const ADDRESS = '0xeXXXXXXXXXXXXXX';
-
-Routes.miner.history(ADDRESS).then(data => console.log(data));
+Routes.miner.history("0xeXXXXXXXXXXXXXX").then(data => console.log(data));
 ```
 
 Using Util:
 ```ts
 // CommonJS require
 const { Utils } = require("ethermine");
-
 // ES6 Import
 import { Utils } from "ethermine";
 
-const ADDRESS = '0xeXXXXXXXXXXXXXX';
-const main_miner = Utils.miner(ADDRESS);
-
+const main_miner = Utils.miner("0xeXXXXXXXXXXXXXX");
 main_miner.history().then(data => console.log(data));
 ```
 

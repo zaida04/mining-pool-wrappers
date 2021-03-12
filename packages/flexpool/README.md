@@ -19,26 +19,20 @@ Using Routes:
 ```ts
 // CommonJS require
 const { Routes } = require("flexpool");
-
 // ES6 Import
 import { Routes } from "flexpool";
 
-const ADDRESS = '0xeXXXXXXXXXXXXXX';
-
-Routes.miner.balance(ADDRESS).then(data => console.log(data));
+Routes.miner.balance("0xeXXXXXXXXXXXXXX").then(data => console.log(data));
 ```
 
 Using Util:
 ```ts
 // CommonJS require
 const { Utils } = require("flexpool");
-
 // ES6 Import
 import { Utils } from "flexpool";
 
-const ADDRESS = '0xeXXXXXXXXXXXXXX';
-const main_miner = Utils.miner(ADDRESS);
-
+const main_miner = Utils.miner("0xeXXXXXXXXXXXXXX");
 main_miner.balance().then(data => console.log(data))
 ```
 
