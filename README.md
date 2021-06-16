@@ -24,7 +24,7 @@ You can find the documentation for all these packages at: https://zaida04.github
 - `hiveos (WIP)`([GitHub](https://github.com/zaida04/mining-pool-wrappers/tree/main/packages/hiveos))
 
 ## 📃 Documentation
-Documentation is viewable here: https://mining-pool-libs.github.io/
+Documentation is viewable here: zaida04.github.io/mining-pool-libs-documentation
 
 <!--END GETTING STARTED-->
 
