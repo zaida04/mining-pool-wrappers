@@ -1,7 +1,6 @@
 <div align="center">
     <h1>Mining Pool Wrappers</h1>
-    <p><b>Wrappers for various mining platforms such as Ethermine, Flexpool, and HiveOS.</b></p>  
-    <br />
+    <p><b>Wrappers for various mining platform APIs such as Ethermine, Flexpool, and HiveOS.</b></p>  
     <p>
         <a href="https://discord.gg/jf66UUN"><img src="https://img.shields.io/discord/732714723744940032.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2 "></a>
         <img src="https://github.com/zaida04/mining-pool-wrappers/actions/workflows/quality.yml/badge.svg" alt="Quality Check">
