@@ -2,7 +2,7 @@
 
 [![GitHub](https://img.shields.io/github/license/zaida04/mining-pool-wrappers)](https://github.com/zaida04/mining-pool-wrappers/blob/master/LICENSE)
 [![npm](https://img.shields.io/npm/v/zaida04/hiveos-js?color=crimson&logo=npm)](https://www.npmjs.com/package/zaida04/hiveos-js)
-[![TypeScript](https://github.com/zaida04/mining-pool-wrappers/actions/workflows/typescript.yml/badge.svg)](https://github.com/zaida04/mining-pool-wrappers/actions/workflows/typescript.yml)
+[![Quality Check](https://github.com/zaida04/mining-pool-wrappers/actions/workflows/quality.yml/badge.svg)](https://github.com/zaida04/mining-pool-wrappers/actions/workflows/quality.yml)
 
 ## Installation
 - `npm install hiveos-js`  
