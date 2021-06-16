@@ -17,7 +17,6 @@ This repository acts as a monorepo, housing various packages that serve to provi
 ## 📦 Packages
 All of these packages are planned to follow this [SPEC](https://github.com/zaida04/mining-pool-wrappers/blob/main/packages/SPEC.md).
 
-You can find the documentation for all these packages at: https://zaida04.github.io/mining-pool-libs-documentation/
 - `flexpool` ([GitHub](https://github.com/zaida04/mining-pool-wrappers/tree/main/packages/flexpool), [NPM](https://www.npmjs.com/package/ethermine))
 - `ethermine`([GitHub](https://github.com/zaida04/mining-pool-wrappers/tree/main/packages/ethermine), [NPM](https://www.npmjs.com/package/flexpool))
 - `hiveos (WIP)`([GitHub](https://github.com/zaida04/mining-pool-wrappers/tree/main/packages/hiveos))
